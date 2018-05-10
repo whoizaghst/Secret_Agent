@@ -1,0 +1,12 @@
+html{
+  font-size: 18px;
+  font-family: Helvetica
+}
+.banner{
+  border:5px solid cyan;
+  background-color: red;
+  color: white;
+}
+.toping{
+  background-image: url('../resources/Pictures/moto.jpeg')
+}
