@@ -4,11 +4,8 @@ html{
   display: block;
 }
 
-.container{
-  display: block;
+/*Banner*/
 
-  justify-content: center;
-}
 .banner{
   border:5px solid cyan;
   background-color: black;
@@ -32,39 +29,38 @@ html{
   display: flex;
   align-items: center;
 }
+
+/* Top pic with the latest arrivals */
+
 .toping{
   border: 5px solid yellow;
   background-image: url('../../resources/Pictures/moto.jpeg');
   background-repeat: no-repeat;
   height: 25rem;
   width:100%;
+  background-size:cover;
+  background-position: bottom;
+
 }
 .text1{
-  margin-top: 9rem;
-  display: flex;
-  flex-direction: column;
-  border: 5px solid red;
-  background-color: black;
-  align-items: center;
-  color: white;
-  width: 20rem;
-  font-weight: bold;
-
+ background-color: black;
+ color: white;
+ text-align: left;
+ width: 24rem;
+ margin-top: 9rem;
+ display: flex;
+ flex-direction: column;
+ font-weight: bold;
 }
 .text1 h3{
-  border: 2px solid blue;
-  display: flex;
-  align-items: flex-start;
+  margin-left: 3rem;
   margin-top: 2rem;
-  
   font-size: 1rem;
 }
-
-h2{
-  border: 2px solid blue;
-  font-size: 2rem;
-  margin-left: 3rem;
+.text1 h2{
   margin-top: 0.25rem;
-  display: flex;
+  margin-left: 3rem;
+  font-size: 2rem;
   margin-bottom: 2rem;
 }
+/* MENU OPTIONS */
