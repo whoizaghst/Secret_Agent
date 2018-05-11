@@ -2,6 +2,13 @@ html{
   font-size: 18px;
   font-family: Helvetica;
   display: block;
+ margin: 0;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 10px solid cyan;
 }
 
 /*Banner*/
@@ -11,6 +18,7 @@ html{
   background-color: black;
   color: white;
   display: flex;
+  width: 960px;
 }
 .logo{
   display: flex;
@@ -34,13 +42,14 @@ html{
 
 .toping{
   border: 5px solid yellow;
+  display: inline-block;
   background-image: url('../../resources/Pictures/moto.jpeg');
+  background-size: cover;
   background-repeat: no-repeat;
   height: 25rem;
-  width:100%;
+  width: 100%;
   background-size:cover;
   background-position: bottom;
-
 }
 .text1{
  background-color: black;
@@ -64,3 +73,56 @@ html{
   margin-bottom: 2rem;
 }
 /* MENU OPTIONS */
+.menu{
+  display: flex;
+  border: 5px solid blue;
+  justify-content: space-around;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  background-color: firebrick;
+  color: white;
+  width: 960px;
+}
+/*IMAGE SECTION*/
+
+.img{
+  margin: 3rem auto;
+  border: 5px solid yellow;
+  display: flex;
+  width: 960px;
+  justify-content: space-around;
+}
+.img1{
+  display: flex;
+  border: 3px solid red;
+  justify-content: center;
+  align-items: center;
+  width: 9rem;
+  height: 9rem;
+  padding: 3rem;
+  margin: 0;
+}
+.imgtxt{
+  border: 5px solid yellow;
+  display: flex;
+  width: 960px;
+  justify-content: space-around;
+}
+.imgtxt1{
+  display: flex;
+  border: 3px solid red;
+  justify-content: center;
+  align-items: center;
+  width: 9rem;
+  background-color: black;
+  color: white;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+/*locations*/
+.location{
+  border: 5px solid red;
+  background-color: black;
+  color: red;
+}
