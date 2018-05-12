@@ -7,10 +7,16 @@ html{
 .container{
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: center;.
   border: 10px solid cyan;
 }
-
+div{
+  margin: 0;
+}
+p{
+  margin: 0;
+  color: white;
+}
 /*Banner*/
 
 .banner{
@@ -94,10 +100,10 @@ html{
 }
 .img1{
   display: flex;
-  border: 3px solid red;
+  border: 3px solid black;
   justify-content: center;
   align-items: center;
-  width: 9rem;
+  width: 30%;
   height: 9rem;
   padding: 3rem;
   margin: 0;
@@ -108,7 +114,7 @@ html{
   width: 960px;
   justify-content: space-around;
 }
-.imgtxt1{
+.imgtxt1 p{
   display: flex;
   border: 3px solid red;
   justify-content: center;
@@ -121,8 +127,44 @@ html{
 }
 
 /*locations*/
-.location{
+.storehours{
   border: 5px solid red;
-  background-color: black;
   color: red;
+  display: flex;
+  justify-content: space-between;
+  align-content: space-between;
+  width: 960px;
+  margin-top: 3rem;
+}
+.location{
+  border: 2px solid blue;
+  background-color: black;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  width: 35%;
+  display: flex;
+  align-content: space-between;
+  justify-content: space-between;
+}
+.area1{
+  border: 5px solid cyan;
+  display: flex;
+  justify-content: space-between;
+  width: 960px;
+
+}
+.area p{
+  border: 2px solid blue;
+  background-color: black;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  width: 35%;
+  display: flex;
+
+}
+.footer{
+  border: 5px solid red;
+
 }
