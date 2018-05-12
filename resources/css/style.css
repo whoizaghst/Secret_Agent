@@ -24,7 +24,7 @@ p{
   background-color: black;
   color: white;
   display: flex;
-  width: 960px;
+  width:100%;
 }
 .logo{
   display: flex;
@@ -127,6 +127,7 @@ p{
 }
 
 /*locations*/
+
 .storehours{
   border: 5px solid red;
   color: red;
@@ -157,14 +158,19 @@ p{
 .area p{
   border: 2px solid blue;
   background-color: black;
-  padding-left: 2rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
   width: 35%;
   display: flex;
 
 }
+
+/*Footer */
 .footer{
   border: 5px solid red;
+  height: 5rem;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: black;
+  color: white;
+  width: 100%;
 
 }
