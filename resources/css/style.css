@@ -15,7 +15,6 @@ div{
 }
 p{
   margin: 0;
-  color: white;
 }
 /*Banner*/
 
@@ -88,6 +87,7 @@ p{
   background-color: firebrick;
   color: white;
   width: 960px;
+
 }
 /*IMAGE SECTION*/
 
@@ -155,16 +155,19 @@ p{
   width: 960px;
 
 }
-.area p{
+.area{
   border: 2px solid blue;
-  background-color: black;
+  color: black;
   width: 35%;
   display: flex;
-
+  justify-content: space-between;
 }
 
 /*Footer */
+
 .footer{
+  display: flex;
+  margin-top: 4rem;
   border: 5px solid red;
   height: 5rem;
   align-items: center;
@@ -172,5 +175,5 @@ p{
   background-color: black;
   color: white;
   width: 100%;
-
+  align-items: center;
 }
