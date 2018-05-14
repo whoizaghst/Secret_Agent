@@ -8,6 +8,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   border: 10px solid blue;
   width: 100%;
 
@@ -20,29 +21,26 @@ p{
 }
 
 /* MEDIA SCREEN SIZES */
-
+/*
 @media only screen and (max-width: 1024){
-}
+}*/
 
 
 /*Banner*/
-.wrapper{
-  border: 5px solid yellowgreen;
-  padding-left: 10rem;
-  padding-right: 10rem;
-}
+
 .banner{
   border:5px solid cyan;
   background-color: black;
   color: white;
   display: flex;
   width:100%;
-  padding-left:0.25rem;
+  padding-left: 17rem;
+  box-sizing: border-box;
 
 }
 .logo{
   display: flex;
-
+ margin-left: 0.25rem;
 }
 .logo img{
   margin: auto 0.5rem;
@@ -70,6 +68,8 @@ p{
   height: 25rem;
   width: 100%;
   background-size:cover;
+  box-sizing: border-box;
+  padding-left: 17rem;
   background-position: bottom;
 }
 .text1{
@@ -198,4 +198,6 @@ p{
   color: white;
   width: 100%;
   align-items: center;
+  padding-left: 17rem;
+  box-sizing: border-box;
 }
