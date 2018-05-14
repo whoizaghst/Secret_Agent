@@ -1,14 +1,16 @@
-html{
+*{
   font-size: 18px;
   font-family: Helvetica;
   display: block;
- margin: 0;
+  margin: 0;
 }
 .container{
   display: flex;
   flex-direction: column;
-  align-items: center;.
-  border: 10px solid cyan;
+  align-items: center;
+  border: 10px solid blue;
+  width: 100%;
+
 }
 div{
   margin: 0;
@@ -16,17 +18,31 @@ div{
 p{
   margin: 0;
 }
-/*Banner*/
 
+/* MEDIA SCREEN SIZES */
+
+@media only screen and (max-width: 1024){
+}
+
+
+/*Banner*/
+.wrapper{
+  border: 5px solid yellowgreen;
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
 .banner{
   border:5px solid cyan;
   background-color: black;
   color: white;
   display: flex;
   width:100%;
+  padding-left:0.25rem;
+
 }
 .logo{
   display: flex;
+
 }
 .logo img{
   margin: auto 0.5rem;
@@ -92,31 +108,37 @@ p{
 /*IMAGE SECTION*/
 
 .img{
-  margin: 3rem auto;
-  border: 5px solid yellow;
+  margin-top: 3rem;
+  /*border: 5px solid yellow;*/
   display: flex;
   width: 960px;
   justify-content: space-around;
 }
 .img1{
   display: flex;
-  border: 3px solid black;
+  border: 4px solid black;
   justify-content: center;
   align-items: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   width: 30%;
   height: 9rem;
-  padding: 3rem;
   margin: 0;
+  width:30%;
+  height: 9rem;
 }
+
+/*IMG text */
+
 .imgtxt{
-  border: 5px solid yellow;
+  /*border: 5px solid cyan;*/
   display: flex;
   width: 960px;
   justify-content: space-around;
 }
-.imgtxt1 p{
+.imgtxt1{
   display: flex;
-  border: 3px solid red;
+  border: 4px solid black;
   justify-content: center;
   align-items: center;
   width: 30%;
@@ -130,7 +152,7 @@ p{
 
 .storehours{
   border: 5px solid red;
-  color: red;
+  color: white;
   display: flex;
   justify-content: space-between;
   align-content: space-between;
