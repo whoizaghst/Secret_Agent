@@ -35,6 +35,7 @@ p{
   display: flex;
   width:100%;
   padding-left: 17rem;
+  padding-right: 17rem;
   box-sizing: border-box;
 
 }
@@ -70,6 +71,7 @@ p{
   background-size:cover;
   box-sizing: border-box;
   padding-left: 17rem;
+  padding-right: 17rem;
   background-position: bottom;
 }
 .text1{
@@ -102,7 +104,10 @@ p{
   padding-bottom: 0.75rem;
   background-color: firebrick;
   color: white;
-  width: 960px;
+  width: 100%;
+  padding-left: 17rem;
+  padding-right: 17rem;
+  box-sizing: border-box;
 
 }
 /*IMAGE SECTION*/
@@ -183,6 +188,7 @@ p{
   width: 35%;
   display: flex;
   justify-content: space-between;
+  margin-right: 2rem;
 }
 
 /*Footer */
@@ -199,5 +205,6 @@ p{
   width: 100%;
   align-items: center;
   padding-left: 17rem;
+  padding-right: 17rem;
   box-sizing: border-box;
 }
