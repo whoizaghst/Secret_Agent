@@ -1,4 +1,4 @@
-*{
+html{
   font-size: 18px;
   font-family: Helvetica;
   display: block;
@@ -9,7 +9,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border: 10px solid blue;
   width: 100%;
 
 }
@@ -21,15 +20,23 @@ p{
 }
 
 /* MEDIA SCREEN SIZES */
-/*
-@media only screen and (max-width: 1024){
-}*/
 
+@media only screen and (max-width: 1024){
+  .img1{
+    width:47%;
+  }
+  .location{
+    width: 35%;
+  }
+  .menu{
+    content: "Menu";
+
+  }
+}
 
 /*Banner*/
 
 .banner{
-  border:5px solid cyan;
   background-color: black;
   color: white;
   display: flex;
@@ -46,13 +53,11 @@ p{
 .logo img{
   margin: auto 0.5rem;
   height: 1.5rem;
-  border: white solid 3px;
   display: flex;
   align-items: center;
 }
 .logo h2{
   margin: 0.66rem 0.5rem;
-  border:2px solid red;
   font-size: 1rem;
   display: flex;
   align-items: center;
@@ -61,7 +66,6 @@ p{
 /* Top pic with the latest arrivals */
 
 .toping{
-  border: 5px solid yellow;
   display: inline-block;
   background-image: url('../../resources/Pictures/moto.jpeg');
   background-size: cover;
@@ -98,7 +102,6 @@ p{
 /* MENU OPTIONS */
 .menu{
   display: flex;
-  border: 5px solid blue;
   justify-content: space-around;
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
@@ -114,7 +117,6 @@ p{
 
 .img{
   margin-top: 3rem;
-  /*border: 5px solid yellow;*/
   display: flex;
   width: 960px;
   justify-content: space-around;
@@ -136,7 +138,6 @@ p{
 /*IMG text */
 
 .imgtxt{
-  /*border: 5px solid cyan;*/
   display: flex;
   width: 960px;
   justify-content: space-around;
@@ -156,7 +157,6 @@ p{
 /*locations*/
 
 .storehours{
-  border: 5px solid red;
   color: white;
   display: flex;
   justify-content: space-between;
@@ -176,14 +176,12 @@ p{
   justify-content: space-between;
 }
 .area1{
-  border: 5px solid cyan;
   display: flex;
   justify-content: space-between;
   width: 960px;
 
 }
 .area{
-  border: 2px solid blue;
   color: black;
   width: 35%;
   display: flex;
@@ -196,7 +194,6 @@ p{
 .footer{
   display: flex;
   margin-top: 4rem;
-  border: 5px solid red;
   height: 5rem;
   align-items: center;
   justify-content: flex-start;
