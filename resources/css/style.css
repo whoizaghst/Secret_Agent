@@ -64,8 +64,6 @@ width: 960px;
   width: 100%;
   background-size:cover;
   box-sizing: border-box;
-  padding-left: 17rem;
-  padding-right: 17rem;
   background-position: bottom;
 }
 .text1{
@@ -237,5 +235,32 @@ width: 960px;
     width: 100%;
     box-sizing: border-box;
   }
-.fo
+}
+@media only screen and (max-width: 470px){
+  .toppings{
+    height: 15rem;
+  }
+  .text1{
+   text-align: left;
+   width: 100%;
+   margin-top: 10rem;
+  }
+  .text1 h3{
+    font-family: Helvetica;
+    margin-top: 1rem;
+    font-size: 0.77rem;
+    margin-left: 2rem;
+  }
+  .text1 h2{
+    font-family: Helvetica;
+    margin-top: 0.25rem;
+    font-size: 1rem;
+    margin-left: 2rem;
+  }
+  .img1{
+    width: 90%;
+  }
+  .imgtxt1{
+    width: 90%;
+  }
 }
