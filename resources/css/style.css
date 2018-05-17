@@ -21,34 +21,25 @@ p{
 
 /* MEDIA SCREEN SIZES */
 
-@media only screen and (max-width: 1024px){
-  .img1{
-    width:47%;
-  }
-  .location{
-    width: 35%;
-  }
-  .menu{
-    content: "Menu";
-  }
-}
+
 
 /*Banner*/
 
-.banner{
-  background-color: black;
-  color: white;
-  display: flex;
-  width:100%;
-  padding-left: 17rem;
-  padding-right: 17rem;
-  box-sizing: border-box;
+.banner {
+ background-color: black;
+color: white;
+display: flex;
+width: 100%;
+justify-content: center;
+box-sizing: border-box;
+}
 
+.logo {
+display: flex;
+margin-left: 0.25rem;
+width: 960px;
 }
-.logo{
-  display: flex;
- margin-left: 0.25rem;
-}
+
 .logo img{
   margin: auto 0.5rem;
   height: 1.5rem;
@@ -108,8 +99,9 @@ p{
   color: white;
   width: 100%;
   box-sizing: border-box;
-  padding-left: 17rem;
-  padding-right: 17rem;
+}
+.menu1{
+  display: none;
 }
 /*IMAGE SECTION*/
 
@@ -202,4 +194,28 @@ p{
   padding-left: 17rem;
   padding-right: 17rem;
   box-sizing: border-box;
+}
+
+
+@media only screen and (max-width: 1024px){
+  .img1{
+    width:47%;
+  }
+  .location{
+    width: 35%;
+  }
+  .menu{
+    display: none;
+  }
+  .menu1{
+    display: block;
+    justify-content: center;
+    display: flex;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    background-color: firebrick;
+    color: white;
+    width: 100%;
+    box-sizing: border-box;
+  }
 }
