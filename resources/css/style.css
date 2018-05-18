@@ -4,14 +4,6 @@ html{
   display: block;
   margin: 0;
 }
-.container{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-
-}
 div{
   margin: 0;
 }
@@ -19,25 +11,31 @@ p{
   margin: 0;
 }
 
-/* MEDIA SCREEN SIZES */
+/*MAIN CONTAINER */
 
-
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
 
 /*Banner*/
 
-.banner {
- background-color: black;
-color: white;
-display: flex;
-width: 100%;
-justify-content: center;
-box-sizing: border-box;
+.banner{
+  background-color: black;
+  color: white;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  box-sizing: border-box;
 }
 
 .logo {
-display: flex;
-margin-left: 0.25rem;
-width: 960px;
+  display: flex;
+  margin-left: 0.25rem;
+  width: 960px;
 }
 
 .logo img{
@@ -67,14 +65,14 @@ width: 960px;
   background-position: bottom;
 }
 .text1{
- background-color: black;
- color: white;
- text-align: left;
- width: 24rem;
- margin-top: 9rem;
- display: flex;
- flex-direction: column;
- font-weight: bold;
+  background-color: black;
+  color: white;
+  text-align: left;
+  width: 24rem;
+  margin-top: 9rem;
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
 }
 .text1 h3{
   margin-left: 3rem;
@@ -87,7 +85,9 @@ width: 960px;
   font-size: 2rem;
   margin-bottom: 2rem;
 }
+
 /* MENU OPTIONS */
+
 .menu{
   display: flex;
   justify-content: space-around;
@@ -101,6 +101,7 @@ width: 960px;
 .menu1{
   display: none;
 }
+
 /*IMAGE SECTION*/
 
 .img{
@@ -117,7 +118,7 @@ width: 960px;
   padding-top: 2rem;
   padding-bottom: 2rem;
   width: 30%;
-  height: 9rem;
+
   margin: 0;
   width:30%;
   height: 9rem;
@@ -166,6 +167,13 @@ width: 960px;
   align-content: space-between;
   width: 960px;
   margin-top: 3rem;
+
+}
+.storehours1{
+  display: none;
+}
+.storehours2{
+  display: none;
 }
 .location{
   border: 2px solid black;
@@ -207,10 +215,17 @@ width: 960px;
   box-sizing: border-box;
 }
 
+/* MEDIA SCREEN SIZES EDITS */
 
 @media only screen and (max-width: 1024px){
+  .img{
+    width: 100%;
+  }
   .img1{
     width:47%;
+  }
+  .imgtxt{
+    width: 100%;
   }
   .imgtxt1{
     width: 47%;
@@ -235,15 +250,44 @@ width: 960px;
     width: 100%;
     box-sizing: border-box;
   }
+  .storehours{
+    display: none;
+  }
+  .area1{
+    display: none;
+  }
+  .storehours1{
+
+      display: flex;
+      justify-content: space-between;
+      align-content: space-between;
+      width: 100%;
+      margin-top: 3rem;
+      flex-wrap: wrap;
+    }
+    .storehours1 h4{
+      color:white;
+    }
+    .location{
+      width: 35%;
+    }
+    .area{
+      width: 35%;
+    }
+
 }
 @media only screen and (max-width: 470px){
   .toppings{
     height: 15rem;
   }
   .text1{
+   margin-top: 20rem;
    text-align: left;
    width: 100%;
    margin-top: 10rem;
+  }
+  #getouttahere2{
+    display: none;
   }
   .text1 h3{
     font-family: Helvetica;
@@ -263,4 +307,27 @@ width: 960px;
   .imgtxt1{
     width: 90%;
   }
+  .storehours1{
+    display: none;
+  }
+  .storehours2{
+
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 90%;
+    margin-top: 3rem;
+
+
+  }
+  .location{
+    width: 90%;
+    margin-top: 0.5rem;
+  }
+  .area{
+    width: 80%;
+    }
+    .footer h6{
+      text-align: center;
+    }
 }
